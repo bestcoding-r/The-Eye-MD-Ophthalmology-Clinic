@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>The Eye MD Ophthalmology Clinic</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Inter:opsz,wght@14..32,400;14..32,500;14..32,600;14..32,700;14..32,800;14..32,900&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+    <!-- Decorative Background Blobs -->
+    <div class="bg-blob blob-1"></div>
+    <div class="bg-blob blob-2"></div>
+
+    <!-- ===== HEADER ===== -->
+    <header>
+        <div class="container header-inner">
+            <a href="#" class="logo">
+                <div class="icon-box"><i class="fas fa-eye"></i></div>
+                <div>
+                    The Eye <span>MD</span>
+                    <small>Ophthalmology Clinic</small>
+                </div>
+            </a>
+            <button class="hamburger" id="hamburger" aria-label="Menu">
+                <i class="fas fa-bars"></i>
+            </button>
+            <ul class="nav-links" id="navLinks">
+                <li><a href="#services">Services</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#locations">Locations</a></li>
+                <li><a href="#eyewear">Eyewear</a></li>
+                <li><a href="#testimonials">Reviews</a></li>
+                <li><a href="#contact" class="btn btn-primary">Contact</a></li>
+            </ul>
+        </div>
+    </header>
+
+    <!-- ===== HERO ===== -->
+    <section class="container hero">
+        <div class="hero-content reveal">
+            <div class="badge"><i class="fas fa-check-circle"></i> Complete Eyecare Solutions</div>
+            <h1>The Eye <span>MD</span></h1>
+            <p class="tagline">Ophthalmology Clinic</p>
+            <p class="description">Medical, Surgical, and Eyewear Solutions — your trusted partner in visual health. Experience premier eye care with cutting-edge technology.</p>
+            <div class="hero-stats">
+                <div><strong>7.5K+</strong><span>Followers</span></div>
+                <div><strong>15+</strong><span>Years Exp.</span></div>
+                <div><strong>4.9<i class="fas fa-star" style="font-size:1rem; color:#f5b342; margin-left:4px;"></i></strong><span>Rating</span></div>
+            </div>
+            <div class="hero-actions">
+                <a href="#contact" class="btn btn-primary"><i class="fas fa-phone"></i> Call Now</a>
+                <a href="#contact" class="btn btn-outline"><i class="fas fa-comment-dots"></i> Message</a>
+                <a href="#eyewear" class="btn btn-gold"><i class="fas fa-sunglasses"></i> Eyewear Store</a>
+            </div>
+        </div>
+        <div class="hero-visual reveal" style="transition-delay: 0.2s;">
+            <div class="glow-ring"></div>
+            <div class="hero-img-wrapper">
+                <img src="https://images.unsplash.com/photo-1629909613654-28e377c37b09?q=80&w=1000&auto=format&fit=crop" alt="Eye Doctor Examining Patient" class="hero-img">
+            </div>
+            <div class="floating-card fc-1">
+                <div class="fc-icon"><i class="fas fa-eye"></i></div>
+                <div>
+                    <small>Expert Care</small>
+                    <strong>20/20 Vision</strong>
+                </div>
+            </div>
+            <div class="floating-card fc-2">
+                <div class="fc-icon"><i class="fas fa-heart"></i></div>
+                <div>
+                    <small>Patient Rated</small>
+                    <strong>4.9 / 5.0</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== SERVICES ===== -->
+    <section class="services container" id="services">
+        <div class="section-header reveal">
+            <h2 class="section-title">Our Premium Services</h2>
+            <p class="section-sub">Complete eyecare: medical, surgical, and eyewear solutions tailored for you.</p>
+        </div>
+        <div class="service-grid">
+            <div class="service-card reveal">
+                <div class="icon-box-lg"><i class="fas fa-stethoscope"></i></div>
+                <h3>General Consultations</h3>
+                <p>Comprehensive eye exams, diagnosis, and management of all eye conditions.</p>
+                <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card reveal" style="transition-delay: 0.1s;">
+                <div class="icon-box-lg"><i class="fas fa-wave-square"></i></div>
+                <h3>Laser Treatments</h3>
+                <p>Advanced laser procedures for vision correction and eye disease management.</p>
+                <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card reveal" style="transition-delay: 0.2s;">
+                <div class="icon-box-lg"><i class="fas fa-microscope"></i></div>
+                <h3>Microsurgery</h3>
+                <p>Precision surgical procedures including cataract, glaucoma, and corneal surgery.</p>
+                <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+            <div class="service-card reveal" style="transition-delay: 0.3s;">
+                <div class="icon-box-lg"><i class="fas fa-glasses"></i></div>
+                <h3>Eyewear &amp; Sunglasses</h3>
+                <p>Premium eyewear, prescription glasses, and stylish sunglasses collection.</p>
+                <a href="#contact">Learn More <i class="fas fa-arrow-right"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== ABOUT ===== -->
+    <section class="about-section" id="about">
+        <div class="container about-grid">
+            <div class="about-text reveal">
+                <span class="subtitle"><i class="fas fa-clinic-medical"></i> Ophthalmology Clinic</span>
+                <h2>About The Eye MD</h2>
+                <p>
+                    <strong>The Eye MD Ophthalmology Clinic</strong> is a premier eye care center dedicated to providing complete medical, surgical, and eyewear solutions. 
+                    We are your trusted partner in visual health.
+                </p>
+                <div class="highlight-box">
+                    <strong><i class="fas fa-quote-left"></i> Your partner in visual health — from diagnosis to treatment to eyewear.</strong>
+                </div>
+                <ul class="feature-list">
+                    <li><i class="fas fa-check"></i> Complete eyecare under one roof</li>
+                    <li><i class="fas fa-check"></i> Experienced ophthalmologists</li>
+                    <li><i class="fas fa-check"></i> Advanced laser technology</li>
+                    <li><i class="fas fa-check"></i> Premium eyewear collection</li>
+                    <li><i class="fas fa-check"></i> Multiple convenient locations</li>
+                    <li><i class="fas fa-check"></i> Patient-centered approach</li>
+                </ul>
+            </div>
+            <div class="about-visual reveal" style="transition-delay: 0.2s;">
+                <img src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?q=80&w=1000&auto=format&fit=crop" alt="Female Eye Doctor Smiling" class="about-img-main">
+                <div class="exp-badge">
+                    <div class="exp-icon"><i class="fas fa-user-md"></i></div>
+                    <div>
+                        <strong>15+</strong>
+                        <span>Years Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== LOCATIONS ===== -->
+    <section class="locations-section container" id="locations">
+        <div class="section-header reveal">
+            <h2 class="section-title">Our Locations</h2>
+            <p class="section-sub">Find us near you in Metro Manila.</p>
+        </div>
+        <div class="location-grid">
+            <div class="location-card reveal">
+                <div class="loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <h4>Loyola Heights</h4>
+                <p>Unit 117 G/F Loyola Heights Condominium<br />#23 Esteban Abada St., QC</p>
+            </div>
+            <div class="location-card reveal" style="transition-delay: 0.1s;">
+                <div class="loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <h4>Marikina City</h4>
+                <p>Marikina City, Philippines</p>
+            </div>
+            <div class="location-card reveal" style="transition-delay: 0.2s;">
+                <div class="loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <h4>Commonwealth</h4>
+                <p>Commonwealth, Quezon City, Philippines</p>
+            </div>
+            <div class="location-card reveal" style="transition-delay: 0.3s;">
+                <div class="loc-icon"><i class="fas fa-map-marker-alt"></i></div>
+                <h4>Quezon City</h4>
+                <p>Quezon City, Philippines</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== EYEWEAR ===== -->
+    <section class="eyewear-section" id="eyewear">
+        <div class="container">
+            <div class="section-header reveal">
+                <h2 class="section-title">Eyewear &amp; Sunglasses Store</h2>
+                <p class="section-sub">Premium eyewear for every style and need.</p>
+            </div>
+            <div class="eyewear-grid">
+                <div class="eyewear-item reveal">
+                    <i class="fas fa-glasses"></i>
+                    <h4>Prescription Glasses</h4>
+                    <p>Custom lenses with stylish frames</p>
+                </div>
+                <div class="eyewear-item reveal" style="transition-delay: 0.1s;">
+                    <i class="fas fa-sunglasses"></i>
+                    <h4>Sunglasses</h4>
+                    <p>UV protection with premium designs</p>
+                </div>
+                <div class="eyewear-item reveal" style="transition-delay: 0.2s;">
+                    <i class="fas fa-circle-dot"></i>
+                    <h4>Contact Lenses</h4>
+                    <p>Comfortable vision correction</p>
+                </div>
+                <div class="eyewear-item reveal" style="transition-delay: 0.3s;">
+                    <i class="fas fa-shield-halved"></i>
+                    <h4>Blue Light Glasses</h4>
+                    <p>Protect eyes from digital screens</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== TESTIMONIALS ===== -->
+    <section class="testimonials container" id="testimonials">
+        <div class="section-header reveal">
+            <h2 class="section-title">Patient Reviews</h2>
+            <p class="section-sub">What our patients say about The Eye MD.</p>
+        </div>
+        <div class="testimonial-grid">
+            <div class="testimonial-card reveal">
+                <i class="fas fa-quote-right quote-icon"></i>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p>"The Eye MD provided excellent care. The doctors were thorough and explained everything clearly. Highly recommended!"</p>
+                <div class="author-info">
+                    <img src="https://i.pravatar.cc/150?img=47" alt="Maria R." class="author-avatar">
+                    <div>
+                        <strong>Maria R.</strong>
+                        <span>Cataract Surgery Patient</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card reveal" style="transition-delay: 0.1s;">
+                <i class="fas fa-quote-right quote-icon"></i>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p>"I got my new glasses here and I love them! Great selection and very helpful staff. Will definitely come back."</p>
+                <div class="author-info">
+                    <img src="https://i.pravatar.cc/150?img=12" alt="John D." class="author-avatar">
+                    <div>
+                        <strong>John D.</strong>
+                        <span>Eyewear Client</span>
+                    </div>
+                </div>
+            </div>
+            <div class="testimonial-card reveal" style="transition-delay: 0.2s;">
+                <i class="fas fa-quote-right quote-icon"></i>
+                <div class="stars">
+                    <i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i><i class="fas fa-star"></i>
+                </div>
+                <p>"Highly professional clinic. The laser treatment was painless and my vision is now perfect. Thank you Eye MD!"</p>
+                <div class="author-info">
+                    <img src="https://i.pravatar.cc/150?img=32" alt="Carmela S." class="author-avatar">
+                    <div>
+                        <strong>Carmela S.</strong>
+                        <span>Laser Treatment Patient</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CONTACT ===== -->
+    <section class="contact-section" id="contact">
+        <div class="container contact-wrapper">
+            <div class="contact-header reveal">
+                <h2>Get in Touch</h2>
+                <p>Reach out for appointments, inquiries, or eyewear orders.</p>
+            </div>
+            <div class="contact-grid">
+                <div class="contact-card reveal">
+                    <i class="fas fa-phone-volume"></i>
+                    <h4>Call Us</h4>
+                    <p><i class="fas fa-phone-alt" style="width:20px;"></i> (02) 7000 5899</p>
+                    <p><i class="fas fa-mobile-alt" style="width:20px;"></i> 0917 106 8639</p>
+                    <p><i class="fab fa-viber" style="width:20px;"></i> Viber: 09171068639</p>
+                </div>
+                <div class="contact-card reveal" style="transition-delay: 0.1s;">
+                    <i class="fas fa-envelope-open-text"></i>
+                    <h4>Email Us</h4>
+                    <a href="mailto:theeyemd@yahoo.com.ph"><i class="fas fa-envelope" style="width:20px;"></i> theeyemd@yahoo.com.ph</a>
+                    <a href="#"><i class="fab fa-facebook-messenger" style="width:20px;"></i> Message on Messenger</a>
+                </div>
+                <div class="contact-card reveal" style="transition-delay: 0.2s;">
+                    <i class="fas fa-map-marked-alt"></i>
+                    <h4>Main Location</h4>
+                    <p><i class="fas fa-map-pin" style="width:20px;"></i> Unit 117 G/F Loyola Heights Condominium<br />#23 Esteban Abada St., QC</p>
+                </div>
+                <div class="contact-card reveal" style="transition-delay: 0.3s;">
+                    <i class="fas fa-share-alt"></i>
+                    <h4>Follow Us</h4>
+                    <a href="#"><i class="fab fa-facebook" style="width:20px;"></i> The Eye MD Clinic</a>
+                    <a href="#"><i class="fab fa-instagram" style="width:20px;"></i> @theeyemd</a>
+                </div>
+            </div>
+            <div style="text-align:center; margin-bottom:40px;" class="reveal">
+                <a href="tel:+63270005899" class="btn btn-success"><i class="fas fa-phone"></i> Call Landline</a>
+                <a href="tel:+639171068639" class="btn btn-white"><i class="fas fa-mobile-alt"></i> Call Mobile</a>
+            </div>
+            <div class="footer-bottom">
+                &copy; 2024 The Eye MD Ophthalmology Clinic — Complete Eyecare: Medical, Surgical, and Eyewear Solutions.
+            </div>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+</html>
